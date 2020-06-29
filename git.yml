@@ -1,0 +1,9 @@
+---
+  - hosts: all
+    become: yes
+    tasks:
+    - name: i want to install git on ubuntu16
+      apt:
+       name: git
+       state: present
+        
