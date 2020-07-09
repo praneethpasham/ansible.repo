@@ -1,0 +1,28 @@
+---
+  - hosts: webservers
+    become: yes
+    tasks: 
+    - name: install apache2
+      apt:
+        name: apache2 
+
+    - name: install tree
+      apt:
+        name: tree
+
+    - name: install java
+      apt:
+        namee: java
+      ignore_errors: yes
+
+      
+    - name: install git
+      apt:
+        name: git
+
+    - name: install wget
+      apt:
+        name: wget
+    
+    
+
