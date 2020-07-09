@@ -1,0 +1,26 @@
+---
+  - hosts: webservers
+    become: yes
+    gather_facts: 
+    - name: i want to install webserver on redhat
+      yum:
+        name: httpd
+        state: present
+        notify: startwebserver
+        when: ansible_os_family =="RedHat"
+
+
+    - name: copy the jinjafile.j2 file int index.html
+      template :
+        scr: jinjafile.j2
+        dest: /var/www/html/index.html
+        notify: startwebserver
+        when: ansible_os_family =="RedHat"
+
+
+    handlers:
+    - name: startwebserver
+      service:
+        name: httpd
+        state: started
+        
