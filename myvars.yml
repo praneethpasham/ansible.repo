@@ -1,0 +1,25 @@
+---
+  - hosts: all
+    become: yes
+    vars: 
+     mykey1: Aws
+     mykey2: Linux
+     mykey3: Devops
+
+    tasks:
+     - name: i want to display mykey1
+       debug: 
+         msg: "{{mykey1}}"
+
+     -  name: i want to display mykey2
+        debug: 
+          msg: "{{mykey2}}"
+
+     -  name: i want to display mykey3
+        debug:
+          msg: "{{mykey3}}"
+
+     -  name: i want to display os
+        debug:
+          msg: "{{ansible_os_family}}"
+          
