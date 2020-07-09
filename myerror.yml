@@ -2,9 +2,8 @@
   - hosts: webservers
     become: yes
     tasks: 
-
-
-    - name: install tree
+    
+    - name: install tree on ubuntu16
       apt:
         name: tree
 
