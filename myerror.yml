@@ -2,10 +2,10 @@
   - hosts: [webservers]
     become: yes
     tasks: 
-      
-    - name: install apache2
+
+    - name: install apache
       apt:
-        name: apache2 
+        name: apache
 
     - name: install tree
       apt:
