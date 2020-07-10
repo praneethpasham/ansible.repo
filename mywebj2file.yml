@@ -3,7 +3,7 @@
     become: yes
     gather_facts: yes
     tasks:
-    - name: i want to install webserver on ubuntu
+    - name: i want to install webserver on ubuntu16
       apt:
         name: apache2
         state: present
@@ -11,9 +11,9 @@
         when: ansible_os_family =="Debian"
 
 
-    - name: copy the myjinjafile.j2 file int index.html
+    - name: copy the jinjafile.j2 file int index.html
       template :
-        scr: myjinjafile.j2
+        scr: jinjafile.j2
         dest: /var/www/html/index.html
         notify: startwebserver
         when: ansible_os_family =="Debian"
