@@ -1,5 +1,5 @@
 ---
-  - hosts: webservers
+  - hosts: [webserver]
     become: yes
     tasks:
     - name: i want to execute linux commands
