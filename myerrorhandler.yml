@@ -11,8 +11,4 @@
       debug:
         msg: "{{myresult}}"
 
-    - name: i want to install tree
-      apt: 
-        name: tree
-        state: present
-      when: myresult.stdree ==""
+    
