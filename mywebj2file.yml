@@ -1,5 +1,5 @@
 ---
-  - hosts: webservers
+  - hosts: [webserver]
     become: yes
     gather_facts: yes
     tasks:
