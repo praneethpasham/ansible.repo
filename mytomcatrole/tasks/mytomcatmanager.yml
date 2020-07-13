@@ -1,0 +1,12 @@
+---
+  - name: copy my tomcat manager file into node side
+    template: 
+       src: templates/mytomcatmanager.j2
+       dest: /opt/tomcat/webapps/manager/META-INF/context.xml
+
+
+  - name: copy my host manager file into my node side 
+    template:
+        src: templates/mytomcathostmanager.j2
+        dest: /opt/tomcat/webapps/manager/META-INF/context.xml
+        
