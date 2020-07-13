@@ -10,3 +10,4 @@
 - include: myusertomcat.yml
 - include: mytomcatmanager.yml
 - include: mytomcatrestart.yml
+
