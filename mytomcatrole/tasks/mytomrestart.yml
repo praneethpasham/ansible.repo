@@ -1,0 +1,6 @@
+---
+  - name:  mytomcar restart
+    systemd: 
+       state: restarted
+       name: tomcat
+       
