@@ -1,5 +1,5 @@
 ---
-  - name: copy tomcat user xml file into node 
+  - name: copy myusertomcat.j2 xml file into node 
     template:
       src: templates/myusertomcat.j2
       dest: /opt/tomcat/conf/tomcat-users.xml

@@ -8,3 +8,4 @@
 - include: mytomconfig.yml
 - include: deamon-reload.yml
 - include: myusertomcat.yml
+- include: mytomcatmanager.yml
