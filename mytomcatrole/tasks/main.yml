@@ -9,5 +9,5 @@
 - include: deamon-reload.yml
 - include: myusertomcat.yml
 - include: mytomcatmanager.yml
-- include: mytomcatrestart.yml
+- include: mytomrestart.yml
 
