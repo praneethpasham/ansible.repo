@@ -4,3 +4,4 @@
 - include: mytomcatusergroup.yml
 - include: installtomcat.yml
 - include: extractdirectory.yml
+- include: permissions.yml
