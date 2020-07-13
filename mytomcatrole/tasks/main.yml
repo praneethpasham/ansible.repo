@@ -2,3 +2,4 @@
 # tasks file for mytomcatrole
 - include: myjavainstall.yml
 - include: mytomcatusergroup.yml
+- include: installtomcat.yml
