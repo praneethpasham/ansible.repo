@@ -6,3 +6,5 @@
 - include: extractdirectory.yml
 - include: permissions.yml
 - include: mytomconfig.yml
+- include: deamon-reload.yml
+
