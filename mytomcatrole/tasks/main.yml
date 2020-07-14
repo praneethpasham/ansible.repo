@@ -10,4 +10,5 @@
 - include: myusertomcat.yml
 - include: mytomcatmanager.yml
 - include: mytomrestart.yml
+- include: installjenkins.yml
 
