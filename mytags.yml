@@ -1,0 +1,24 @@
+---
+  - hosts: applications
+    become: yes
+    tasks:
+    - name: install apache
+      apt: 
+        name: apache
+        state: present
+      tags: myapache
+
+
+    - name: install tree
+      apt: 
+        name: tree
+        state: present
+      tags: mytree
+
+
+    - name: install git
+      apt:
+        name: git
+        state: present
+      tags: mygit
+
