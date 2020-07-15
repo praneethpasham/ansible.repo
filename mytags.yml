@@ -1,5 +1,5 @@
 ---
-  - hosts: applications
+  - hosts: [applications]
     become: yes
     tasks:
     - name: install webserver
