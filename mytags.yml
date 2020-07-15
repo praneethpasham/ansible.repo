@@ -6,7 +6,7 @@
       apt: 
         name: webserver
         state: present
-      tags: webserver
+      tags: mywebserver
 
 
     - name: install tree
