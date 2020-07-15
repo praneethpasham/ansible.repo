@@ -2,11 +2,11 @@
   - hosts: [applications]
     become: yes
     tasks:
-    - name: install webserver
+    - name: install apache2
       apt: 
-        name: webserver
+        name: apache2
         state: present
-      tags: mywebserver
+      tags: myapache2
 
 
     - name: install tree
