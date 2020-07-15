@@ -1,6 +1,3 @@
 ---
 myjavaonubuntu: openjdk-8-jdk
 install tree: tree
-
-myansibleusername: praneeth
-myansiblepassword: 1234
