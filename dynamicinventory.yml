@@ -1,0 +1,9 @@
+---
+  - hosts: vpc_id_vpc_a8061ac0"
+    become: yes
+    tasks:
+    - name: install webserver on dynamicinventory
+      apt:
+        name: apache2
+        state: present
+        
