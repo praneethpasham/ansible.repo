@@ -7,3 +7,4 @@
 - include : changepermissions.yml
 - include : systmedconfig.yml
 - include : deamon-reload.yml
+- include : tomcatuserxmlfile.yml
