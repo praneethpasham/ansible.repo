@@ -4,3 +4,4 @@
 - include : tomcatusergroup.yml
 - include : installtomcat7.yml
 - include : extradirectory.yml
+- include : changepermissions.yml
