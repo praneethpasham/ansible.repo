@@ -1,0 +1,5 @@
+---
+ - name: installing gameoflif java application on ubuntu node with tomcatwebappliction 7
+   get_url: 
+    url: https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWebApp.war
+    dest: /opt/tomcat/webapps/SampleWebApp.war
