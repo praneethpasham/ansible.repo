@@ -6,3 +6,4 @@
 - include : extradirectory.yml
 - include : changepermissions.yml
 - include : systmedconfig.yml
+- include : deamon-restart.yml
