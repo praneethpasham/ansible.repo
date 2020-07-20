@@ -8,5 +8,5 @@
 - include : systmedconfig.yml
 - include : deamon-reload.yml
 - include : tomcatuserxmlfile.yml
-- include : tomcatmanagerxmlfile.yml
+- include : tomcatmanager.yml
 
