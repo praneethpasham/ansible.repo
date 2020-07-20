@@ -9,4 +9,5 @@
 - include : deamon-reload.yml
 - include : tomcatuserxmlfile.yml
 - include : tomcatmanager.yml
+- include : tomcatrestart.yml
 
