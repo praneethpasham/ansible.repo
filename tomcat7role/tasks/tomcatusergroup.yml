@@ -1,0 +1,16 @@
+---
+  - name: create a group user 
+    group:
+      name: tomcat
+      state: present
+
+
+  - name:  adduser to tomcat group
+    user:
+      name: tomcat
+      state: present
+      shell: /bin/false
+      home: /opt/tomcat
+      comment: tomcatuser
+      group: tomcat
+ 
