@@ -1,6 +1,5 @@
 ---
   - name: copy config file into tomcat.service file
     template: 
-      src: templates/mytomconfig.j2
+      src: templates/systmedconfig.j2
       dest: /etc/systemd/system/tomcat.service
-      
