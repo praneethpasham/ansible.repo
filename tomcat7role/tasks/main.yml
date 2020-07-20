@@ -1,2 +1,3 @@
 ---
 # tasks file for tomcat7role
+- include : myjavainstall.yml
