@@ -2,4 +2,4 @@
 # tasks file for tomcat7role
 - include : myjavainstall.yml
 - include : tomcatusergroup.yml
-
+- include : installtomcat7.yml
