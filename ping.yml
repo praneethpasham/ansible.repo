@@ -1,6 +1,6 @@
 ---
-  - hosts: all
+  - host: all
     become: yes
-    tasks: 
-  -  name: ping all ansible nodes
-     ping:
+    task:
+  -   name: ping all my ansible nodes
+      
